@@ -1,0 +1,26 @@
+.nav {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    transition: all 0.3s ease-out;
+}
+
+.nav__netflix__logo {
+    width: 130px;
+    margin: 20px 0 10px 30px;
+    cursor: pointer;
+}
+
+.nav__account__logo {
+    width: 30px;
+    margin: 20px 30px 0 0;
+    cursor: pointer;
+}
+
+.nav__black {
+    background-color: #111111bc;
+    backdrop-filter: blur(10px);
+}

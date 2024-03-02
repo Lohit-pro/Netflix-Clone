@@ -1,0 +1,39 @@
+.row {
+    color: #fff;
+}
+
+.row__title {
+    margin: 2rem 2rem 0 2rem;
+}
+
+.row__poster {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.row__largeposter {
+    height: 280px;
+    width: 200px;
+    margin: 1rem 0.75rem 1rem 0;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.row__largeposter:hover {
+    /* transform: translateY(-5px); */
+    transform: scale(1.06);
+}
+
+.row__smallposter {
+    height: 160px;
+    width: 250px;
+    margin: 1rem 1rem 0 0;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.row__smallposter:hover {
+    transform: translateY(-5px);
+}
