@@ -16,7 +16,7 @@ function ProfileScreen() {
         <div className='profileScreen__info'>
           <img src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png' alt='net_face'></img>
           <div className='profileScreen__details'>
-            <h2>{user.email}</h2>
+            <h2>{user ? user.email : null}</h2>
             <div className='profileScreen__plans'>
             <h3>Plan : Premium Plan 4K + HDR</h3>
               <button onClick={() => auth.signOut()} className='profileScreen__signout'>Sign Out</button>
