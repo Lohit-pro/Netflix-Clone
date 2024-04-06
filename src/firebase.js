@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD8ZA7AaC5pAefROWfw8tGAEkbyxgX0Nik",
-    authDomain: "react-netflix-clone-c041f.firebaseapp.com",
-    projectId: "react-netflix-clone-c041f",
-    storageBucket: "react-netflix-clone-c041f.appspot.com",
-    messagingSenderId: "1024904874177",
-    appId: "1:1024904874177:web:640e54da6acf4fa4e9ec40"
-  };
+  apiKey: "AIzaSyAKgGxThkLgCbiV4N8uAr0QPIymw5jaTD0",
+  authDomain: "netflix-clone-e056c.firebaseapp.com",
+  projectId: "netflix-clone-e056c",
+  storageBucket: "netflix-clone-e056c.appspot.com",
+  messagingSenderId: "1054315485612",
+  appId: "1:1054315485612:web:58febd9ce29e5a0c65c209"
+};
 
 const firebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseApp);
